@@ -1,0 +1,21 @@
+html, body {
+    margin:0; padding: 0;
+}
+a {
+    display: block;
+    width: 300px;
+    height: 250px;
+    border: 1px solid #666;
+    cursor: pointer;
+}
+#ad-container {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    * {box-sizing: border-box;}
+}
+
+/* ad elements */
+.square {width: 30px; height:30px; background-color: #666;}
+.circle {width: 30px; height:30px; border-radius: 30px; background-color: blueviolet}
